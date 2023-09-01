@@ -40,9 +40,9 @@ const Exit = ({setmodal}) => {
         <Text style={{color: 'white', fontSize: 18, width: '90%',marginTop:20}}>
           Are you sure you would like to Leave Room?
         </Text>
-        <View style={{flex:1,flexDirection:"row",justifyContent:"space-between",width:"90%",marginTop:40}}>
-            <TouchableOpacity onPress={()=>{navigation.navigate("Room")}} style={{backgroundColor:"#d9d9d9",width:45,height:25,borderRadius:5,justifyContent:"center",alignItems:"center"}}><Text style={{color:"black"}}>yes</Text></TouchableOpacity>
-            <TouchableOpacity onPress={()=>setmodal(false)}  style={{backgroundColor:"#d9d9d9",width:45,height:25,borderRadius:5,justifyContent:"center",alignItems:"center"}}><Text style={{color:"black"}}>No</Text></TouchableOpacity>
+        <View style={{flex:1,flexDirection:"row",width:"90%",marginTop:40}}>
+            <TouchableOpacity onPress={()=>{navigation.navigate("Room")}} style={{backgroundColor:"#d9d9d9",width:45,height:25,borderRadius:5,justifyContent:"center",alignItems:"center", marginLeft:'auto'}}><Text style={{color:"black"}}>Yes</Text></TouchableOpacity>
+            <TouchableOpacity onPress={()=>setmodal(false)}  style={{backgroundColor:"#d9d9d9",width:45,height:25,borderRadius:5,justifyContent:"center",alignItems:"center", marginLeft:20}}><Text style={{color:"black"}}>No</Text></TouchableOpacity>
         </View>
       </View>
     </View>

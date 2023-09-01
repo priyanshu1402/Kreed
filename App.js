@@ -20,7 +20,7 @@ const App = () => {
  
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName='BottomBar'>
+      <Stack.Navigator initialRouteName='Login'>
         <Stack.Screen name="ScoreBoarding" component={ScoreBoarding} options={{ headerShown: false }}/>
         <Stack.Screen name="SelectSpecificationOfCricket" component={SelectSpecificationOfCricket} options={{ headerShown: false }}/>
         <Stack.Screen name="MakeTeam" component={MakeTeam} options={{ headerShown: false }}/>

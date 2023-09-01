@@ -144,9 +144,14 @@ const SignUp = ({ navigation }) => {
               <Image source={require('../Assets/FacebookIcon.png')} />
             </TouchableOpacity>
           </View>
-          <TouchableOpacity onPress={sendOTP} style={styles.LoginButton}>
+          <LinearGradient    colors={['#86D957', '#203912','#1E3411']}
+              start={{x: 0, y: 0}}
+              end={{x: 1, y: 0}} style={styles.LoginButton}>
+
+          <TouchableOpacity onPress={sendOTP} >
             <Text style={styles.LoginButtonText}>Sign up</Text>
           </TouchableOpacity>
+              </LinearGradient>
           <View style={{ flexDirection: 'row', justifyContent: 'center' }}>
             <Text style={styles.TermText}> By signing up, you agree to our </Text>
             <TouchableOpacity><Text style={[styles.TermText, { color: '#4285F4', fontWeight: 'bold' }]}>  Terms And Policy</Text></TouchableOpacity>
@@ -210,8 +215,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     paddingVertical: 10,
     alignItems: 'center',
-    width: 200,
-    marginLeft: 55,
+    width: 250,
+    marginLeft: 35,
     borderRadius: 20,
     marginTop: 15
   },

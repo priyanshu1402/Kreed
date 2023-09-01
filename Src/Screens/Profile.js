@@ -286,7 +286,7 @@ const Post = () => {
                 }}
                 style={{marginRight: 40, marginTop: 40}}>
                 <Text style={{color: 'white', fontSize: 17, marginLeft: 40}}>
-                  State
+                  Status
                 </Text>
               </TouchableOpacity>
 

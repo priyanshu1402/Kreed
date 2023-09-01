@@ -154,7 +154,7 @@ import {
             style={[styles.NextButton,{width:"50%",marginBottom:20}]}
             onPress={() => navigation.navigate("MakeTeam")}>
             <LinearGradient
-              colors={['#86D957', '#000']}
+              colors={['#86D957', '#203912','#1E3411']}
               start={{x: 0, y: 0}}
               end={{x: 1, y: 0}}
               style={[styles.LinearGradientButton,{padding:10}]}>

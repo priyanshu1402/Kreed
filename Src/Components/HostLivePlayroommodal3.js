@@ -40,7 +40,7 @@ const HostLivePlayroomChooseModal3 = ({modal,setmodal}) => {
         <LinearGradient    colors={['rgba(255,255,255,.1)', 'rgba(255,255,255,.5)']}
               start={{x: 0, y: 0}}
               end={{x: 0, y: 1}} style={[{height:30,width:"50%"},styles.centercontainer]}>
-                   <MaterialCommunity name="reload" size={25} color="white" />
+                   <MaterialCommunity name="reload" size={20} color="white" />
               </LinearGradient>
         <TouchableOpacity style={[{height:30,width:"50%",backgroundColor:"#0a871e"},styles.centercontainer]}>
         <MaterialCommunity name="check" size={30} color="white" />
@@ -76,7 +76,7 @@ const HostLivePlayroomChooseModal3 = ({modal,setmodal}) => {
         <LinearGradient    colors={['rgba(255,255,255,.1)', 'rgba(255,255,255,.5)']}
               start={{x: 0, y: 0}}
               end={{x: 0, y: 1}} style={[{height:30,width:"50%"},styles.centercontainer]}>
-                   <MaterialCommunity name="reload" size={25} color="white" />
+                   <MaterialCommunity name="reload" size={20} color="white" />
               </LinearGradient>
         <TouchableOpacity style={[{height:30,width:"50%",backgroundColor:"#0a871e"},styles.centercontainer]}>
         <MaterialCommunity name="check" size={30} color="white" />
@@ -116,7 +116,7 @@ const HostLivePlayroomChooseModal3 = ({modal,setmodal}) => {
         <LinearGradient    colors={['rgba(255,255,255,.1)', 'rgba(255,255,255,.5)']}
               start={{x: 0, y: 0}}
               end={{x: 0, y: 1}} style={[{height:30,width:"50%"},styles.centercontainer]}>
-                   <MaterialCommunity name="reload" size={25} color="white" />
+                   <MaterialCommunity name="reload" size={20} color="white" />
               </LinearGradient>
         <TouchableOpacity style={[{height:30,width:"50%",backgroundColor:"#0a871e"},styles.centercontainer]}>
         <MaterialCommunity name="check" size={30} color="white" />
@@ -152,7 +152,7 @@ const HostLivePlayroomChooseModal3 = ({modal,setmodal}) => {
         <LinearGradient    colors={['rgba(255,255,255,.1)', 'rgba(255,255,255,.5)']}
               start={{x: 0, y: 0}}
               end={{x: 0, y: 1}} style={[{height:30,width:"50%"},styles.centercontainer]}>
-                   <MaterialCommunity name="reload" size={25} color="white" />
+                   <MaterialCommunity name="reload" size={20} color="white" />
               </LinearGradient>
         <TouchableOpacity style={[{height:30,width:"50%",backgroundColor:"#0a871e"},styles.centercontainer]}>
         <MaterialCommunity name="check" size={30} color="white" />
@@ -192,7 +192,7 @@ const HostLivePlayroomChooseModal3 = ({modal,setmodal}) => {
         <LinearGradient    colors={['rgba(255,255,255,.1)', 'rgba(255,255,255,.5)']}
               start={{x: 0, y: 0}}
               end={{x: 0, y: 1}} style={[{height:30,width:"50%"},styles.centercontainer]}>
-                   <MaterialCommunity name="reload" size={25} color="white" />
+                   <MaterialCommunity name="reload" size={20} color="white" />
               </LinearGradient>
         <TouchableOpacity style={[{height:30,width:"50%",backgroundColor:"#0a871e"},styles.centercontainer]}>
         <MaterialCommunity name="check" size={30} color="white" />
@@ -228,7 +228,7 @@ const HostLivePlayroomChooseModal3 = ({modal,setmodal}) => {
         <LinearGradient    colors={['rgba(255,255,255,.1)', 'rgba(255,255,255,.5)']}
               start={{x: 0, y: 0}}
               end={{x: 0, y: 1}} style={[{height:30,width:"50%"},styles.centercontainer]}>
-                   <MaterialCommunity name="reload" size={25} color="white" />
+                   <MaterialCommunity name="reload" size={20} color="white" />
               </LinearGradient>
         <TouchableOpacity style={[{height:30,width:"50%",backgroundColor:"#0a871e"},styles.centercontainer]}>
         <MaterialCommunity name="check" size={30} color="white" />
@@ -247,7 +247,7 @@ const HostLivePlayroomChooseModal3 = ({modal,setmodal}) => {
               {width: 50, height: 50, marginBottom: 10, },
             ]}>
             <LinearGradient
-              colors={['#60a66a','rgba(255,255,255,.5)', '#282F2E']}
+              colors={['#62BD6B', '#517355','#343D35']}
               start={{ x: 0.2, y: 0 }}
               style={[
                 styles.LinearGradientButton,
@@ -258,12 +258,12 @@ const HostLivePlayroomChooseModal3 = ({modal,setmodal}) => {
           </TouchableOpacity>
 
 <View style={{width:"95%",flexDirection:"row",justifyContent:"space-between",marginBottom:20,marginHorizontal:10}}>
-    <LinearGradient    colors={['rgba(255,255,255,.4)','#7fb95e','#7fb95e','#7fb95e', 'rgba(255,255,255,.4)']}
+    <LinearGradient    colors={['#86D957', '#203912','#1E3411']}
               start={{x: 0, y: 0}}
               end={{x: 0, y: 1}} style={[{height:45,width:"45%",borderRadius:10},styles.centercontainer]}>
                    <TouchableOpacity  onPress={()=>setmodal(true)}><Text  style={[{color:"white",fontSize:20,fontWeight:"bold"}]}>Leave Room</Text></TouchableOpacity>
               </LinearGradient>
-              <LinearGradient    colors={['rgba(255,255,255,.4)','#7fb95e','#7fb95e','#7fb95e', 'rgba(255,255,255,.4)']}
+              <LinearGradient    colors={['#86D957', '#203912','#1E3411']}
               start={{x: 0, y: 0}}
               end={{x: 0, y: 1}} style={[{height:45,width:"45%",borderRadius:10},styles.centercontainer]}>
                    <TouchableOpacity onPress={()=>{navigation.navigate("Endroom")}}><Text  style={[{color:"white",fontSize:20,fontWeight:"bold"}]}>End Room</Text></TouchableOpacity>

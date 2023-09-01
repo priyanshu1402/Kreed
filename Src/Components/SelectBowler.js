@@ -41,7 +41,7 @@ const SelectBowler = () => {
             style={[styles.NextButton,{width:"50%",marginBottom:20}]}
             onPress={() => navigation.navigate("ScoreBoarding")}>
             <LinearGradient
-              colors={['rgba(255,255,255,.7)','#86D957']}
+              colors={['#86D957', '#203912','#1E3411']}
               start={{x: 0, y: 0}}
               end={{x: 1, y: 0}}
               style={[styles.LinearGradientButton,{padding:10}]}>

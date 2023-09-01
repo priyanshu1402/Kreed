@@ -244,7 +244,7 @@ const toggleSwitch = () => setIsEnabled(previousState => !previousState);
               </View>
               <TouchableOpacity 
       >
-            <LinearGradient colors={['#86D957', '#72ba4a','rgba(0,0,0,.7)']} 
+            <LinearGradient colors={['#86D957', '#203912','#1E3411']}
             start={{x:0,y:0}}
             end={{x:1,y:0}}
             style={styles.LinearGradientButton} >
@@ -276,7 +276,7 @@ const toggleSwitch = () => setIsEnabled(previousState => !previousState);
               </View>
               <TouchableOpacity 
       >
-            <LinearGradient colors={['#86D957', '#72ba4a','rgba(0,0,0,.7)']} 
+            <LinearGradient colors={['#86D957', '#203912','#1E3411']}
             start={{x:0,y:0}}
             end={{x:1,y:0}}
             style={styles.LinearGradientButton} >

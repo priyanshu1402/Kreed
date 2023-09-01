@@ -76,7 +76,7 @@ const Login = ({ navigation }) => {
           </Text>
           <View style={styles.TextInputBox}>
             <TextInput
-              placeholder='Numeber'
+              placeholder='Number'
               placeholderTextColor={'#878A8B'}
               style={{ color: 'white' }}
               onChangeText={(text) => setNumber(text)}
@@ -106,9 +106,14 @@ const Login = ({ navigation }) => {
 
             <Text style={styles.ForgetText}> Forgotten your password?</Text>
           </TouchableOpacity>
-          <TouchableOpacity onPress={FirebaseLogin} style={styles.LoginButton}>
+          <LinearGradient    colors={['#86D957','#86D957', '#203912','#1E3411']}
+              start={{x: 0, y: 0}}
+              end={{x: 1, y: 0}} style={styles.LoginButton}>
+
+          <TouchableOpacity onPress={FirebaseLogin} >
             <Text style={styles.LoginButtonText}>Log In</Text>
           </TouchableOpacity>
+              </LinearGradient>
           <View style={{ flexDirection: 'row', justifyContent: 'center' }}>
             <Text style={styles.ForgetText}> Don’t have an account?</Text>
             <TouchableOpacity onPress={gotosignup}><Text style={[styles.ForgetText, { color: '#86D957', fontWeight: 'bold' }]}>  Sign Up</Text></TouchableOpacity>
@@ -168,8 +173,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     paddingVertical: 10,
     alignItems: 'center',
-    width: 200,
-    marginLeft: 55,
+    width: 250,
+    marginLeft: 35,
     borderRadius: 20,
     marginTop: 15
   },

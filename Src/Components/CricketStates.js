@@ -145,8 +145,8 @@ import CricketHistory from './CricketHistory';
             </View>
           </View>
           <View style={{width:"100%",height:40,flexDirection:"row",justifyContent:"space-between",alignItems:"center",borderRadius:20,paddingHorizontal:10,marginBottom:20}}>
-            <TouchableOpacity  onPress={()=>setstatetype("badminton")} style={{borderBottomColor:statetype==="badminton"?"#86d597":"transparent",borderWidth:6,height:40,justifyContent:"center",paddingHorizontal:10,backgroundColor:statetype==="cricket"?"rgba(255,255,255,0.2)":"transparent",borderRadius:10}}><Text style={[styles.Text,{margin:"auto",fontSize:14,color:"#86d597"}]}>Cricket Ball Stats</Text></TouchableOpacity>
-            <TouchableOpacity onPress={()=>setstatetype("cricket")} style={{borderBottomColor:statetype==="cricket"?"#86d597":"transparent",borderWidth:6,height:40,justifyContent:"center",paddingHorizontal:10,backgroundColor:statetype==="badminton"?"rgba(255,255,255,0.2)":"transparent",borderRadius:10}}><Text style={[styles.Text,{fontSize:14,color:"#86d597"}]}>Tennis Ball Stats</Text></TouchableOpacity>
+            <TouchableOpacity  onPress={()=>setstatetype("badminton")} style={{borderBottomColor:statetype==="badminton"?"#86d957":"transparent",borderWidth:6,height:40,justifyContent:"center",paddingHorizontal:10,backgroundColor:statetype==="cricket"?"rgba(255,255,255,0.2)":"transparent",borderRadius:10}}><Text style={[styles.Text,{margin:"auto",fontSize:14,color:"#86d597"}]}>Cricket Ball Stats</Text></TouchableOpacity>
+            <TouchableOpacity onPress={()=>setstatetype("cricket")} style={{borderBottomColor:statetype==="cricket"?"#86d957":"transparent",borderWidth:6,height:40,justifyContent:"center",paddingHorizontal:10,backgroundColor:statetype==="badminton"?"rgba(255,255,255,0.2)":"transparent",borderRadius:10}}><Text style={[styles.Text,{fontSize:14,color:"#86d597"}]}>Tennis Ball Stats</Text></TouchableOpacity>
           </View>
           {statetype==="cricket"?    <View style={[styles.table,{backgroundColor:"#082613"}]}>
             {/* Table Header */}
